@@ -1,0 +1,20 @@
+[project]
+name = "rag-awsbedrock"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ['boto3',
+'fastapi',
+'uvicorn',
+'jinja2',
+'pydantic-settings',
+'psycopg[binary,pool]',
+'pypdf',
+'python-docx',
+'httpx',
+'langgraph',
+'pinecone',
+'python-dotenv',
+'glassflow-rius',]
+
